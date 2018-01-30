@@ -5,10 +5,6 @@ date: "January 30, 2018"
 output: pdf_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Analyse sur les composantes principales.
 
 
@@ -16,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Prediction VS. #SNPs
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
+* Calcul pente / plateau
 
 #### Prediction VS. #PC
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
@@ -25,19 +22,8 @@ Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombr
 
 #### Prediction VS. #SNPs
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
+* Calcul pente / plateau
+
 #### Prediction VS. #PC
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
