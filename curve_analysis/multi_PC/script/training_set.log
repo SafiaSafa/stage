@@ -1,0 +1,28 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /home/vcabeli/Documents/data/BP_final/BP.B37-final
+  --keep training_samples.keep
+  --make-bed
+  --out training_set
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage_n/curve_analysis/multi_PC/script
+Start time: Tue Jan 30 15:47:45 2018
+
+Random number seed: 1517323665
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+250140 variants loaded from .bim file.
+1952 people (827 males, 1125 females) loaded from .fam.
+1952 phenotype values loaded from .fam.
+--keep: 976 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 976 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 108 het. haploid genotypes present (see training_set.hh ); many
+commands treat these as missing.
+Total genotyping rate in remaining samples is 0.998711.
+250140 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 211 are cases and 765 are controls.
+--make-bed to training_set.bed + training_set.bim + training_set.fam ... done.
+
+End time: Tue Jan 30 15:47:46 2018
