@@ -10,20 +10,20 @@ output: pdf_document
 
 ### Classification (Cas vs. Controle)
 
-#### Prediction VS. #SNPs
+#### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
-* Calcul pente / plateau
+* _Calcul pente / plateau_
 
-#### Prediction VS. #PC
+#### __Prediction VS. #PC__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
 
 
 ### Regression (Age at onset)
 
-#### Prediction VS. #SNPs
+#### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
-* Calcul pente / plateau
+* _Calcul pente / plateau_
 
-#### Prediction VS. #PC
+#### __Prediction VS. #PC__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
 
