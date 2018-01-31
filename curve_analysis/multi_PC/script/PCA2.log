@@ -1,0 +1,26 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile training_set
+  --extract L2_thresh_5_BP.extract
+  --make-bed
+  --out PCA2
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/curve_analysis/multi_PC/script
+Start time: Wed Jan 31 15:05:58 2018
+
+Random number seed: 1517407558
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+250140 variants loaded from .bim file.
+976 people (434 males, 542 females) loaded from .fam.
+976 phenotype values loaded from .fam.
+--extract: 10841 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 976 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998692.
+10841 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 203 are cases and 773 are controls.
+--make-bed to PCA2.bed + PCA2.bim + PCA2.fam ... done.
+
+End time: Wed Jan 31 15:05:58 2018

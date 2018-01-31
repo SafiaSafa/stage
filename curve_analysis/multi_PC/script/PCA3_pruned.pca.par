@@ -1,0 +1,11 @@
+genotypename: PCA3_pruned.bed
+snpname: PCA3_pruned.bim
+indivname: PCA3_pruned.fam
+evecoutname: PCA3_pruned.pca.evec
+evaloutname: PCA3_pruned.eval
+altnormstyle: NO
+numoutevec: 3
+numoutlieriter: 0
+numoutlierevec: 2
+outliersigmathresh: 6
+qtmode: 0
