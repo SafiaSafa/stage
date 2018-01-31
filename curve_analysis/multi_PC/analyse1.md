@@ -12,6 +12,10 @@ output: pdf_document
 
 #### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
+
+
+![Resultat courbe PC](script/test.pdf)
+
 * _Calcul pente / plateau_
 
 #### __Prediction VS. #PC__
