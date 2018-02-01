@@ -7,20 +7,20 @@ Options in effect:
 
 Hostname: GBA-vcabeli
 Working directory: /home/vcabeli/stage/curve_analysis/multi_PC/script
-Start time: Wed Jan 31 15:58:07 2018
+Start time: Thu Feb  1 10:58:51 2018
 
-Random number seed: 1517410687
+Random number seed: 1517479131
 15733 MB RAM detected; reserving 7866 MB for main workspace.
 250140 variants loaded from .bim file.
-976 people (416 males, 560 females) loaded from .fam.
+976 people (403 males, 573 females) loaded from .fam.
 976 phenotype values loaded from .fam.
 --extract: 10841 variants remaining.
 Using 1 thread (no multithreaded calculations invoked).
 Before main variant filters, 976 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.998777.
+Total genotyping rate is 0.998675.
 10841 variants and 976 people pass filters and QC.
-Among remaining phenotypes, 205 are cases and 771 are controls.
+Among remaining phenotypes, 214 are cases and 762 are controls.
 --make-bed to PCA5.bed + PCA5.bim + PCA5.fam ... done.
 
-End time: Wed Jan 31 15:58:07 2018
+End time: Thu Feb  1 10:58:51 2018

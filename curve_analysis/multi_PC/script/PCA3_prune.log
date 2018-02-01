@@ -9,45 +9,45 @@ Options in effect:
 
 Hostname: GBA-vcabeli
 Working directory: /home/vcabeli/stage/curve_analysis/multi_PC/script
-Start time: Wed Jan 31 15:38:57 2018
+Start time: Thu Feb  1 10:45:16 2018
 
 Note: --range flag deprecated.  Use e.g. '--extract range [filename]'.
-Random number seed: 1517409537
+Random number seed: 1517478316
 15733 MB RAM detected; reserving 7866 MB for main workspace.
 10841 variants loaded from .bim file.
-976 people (431 males, 545 females) loaded from .fam.
+976 people (419 males, 557 females) loaded from .fam.
 976 phenotype values loaded from .fam.
 --exclude range: 16 variants excluded.
 --exclude range: 10825 variants remaining.
 Using 1 thread (no multithreaded calculations invoked).
 Before main variant filters, 976 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.998755.
+Total genotyping rate is 0.998701.
 10825 variants and 976 people pass filters and QC.
-Among remaining phenotypes, 208 are cases and 768 are controls.
-Pruned 63 variants from chromosome 1, leaving 681.
+Among remaining phenotypes, 199 are cases and 777 are controls.
+Pruned 66 variants from chromosome 1, leaving 678.
 Pruned 49 variants from chromosome 2, leaving 595.
-Pruned 71 variants from chromosome 3, leaving 559.
-Pruned 56 variants from chromosome 4, leaving 577.
-Pruned 30 variants from chromosome 5, leaving 504.
-Pruned 44 variants from chromosome 6, leaving 469.
-Pruned 43 variants from chromosome 7, leaving 424.
+Pruned 67 variants from chromosome 3, leaving 563.
+Pruned 57 variants from chromosome 4, leaving 576.
+Pruned 28 variants from chromosome 5, leaving 506.
+Pruned 47 variants from chromosome 6, leaving 466.
+Pruned 37 variants from chromosome 7, leaving 430.
 Pruned 30 variants from chromosome 8, leaving 363.
-Pruned 59 variants from chromosome 9, leaving 487.
+Pruned 58 variants from chromosome 9, leaving 488.
 Pruned 26 variants from chromosome 10, leaving 381.
-Pruned 35 variants from chromosome 11, leaving 311.
-Pruned 38 variants from chromosome 12, leaving 472.
-Pruned 30 variants from chromosome 13, leaving 333.
-Pruned 36 variants from chromosome 14, leaving 335.
-Pruned 47 variants from chromosome 15, leaving 355.
-Pruned 37 variants from chromosome 16, leaving 379.
-Pruned 75 variants from chromosome 17, leaving 569.
-Pruned 60 variants from chromosome 18, leaving 438.
+Pruned 33 variants from chromosome 11, leaving 313.
+Pruned 36 variants from chromosome 12, leaving 474.
+Pruned 29 variants from chromosome 13, leaving 334.
+Pruned 39 variants from chromosome 14, leaving 332.
+Pruned 46 variants from chromosome 15, leaving 356.
+Pruned 38 variants from chromosome 16, leaving 378.
+Pruned 79 variants from chromosome 17, leaving 565.
+Pruned 59 variants from chromosome 18, leaving 439.
 Pruned 73 variants from chromosome 19, leaving 608.
 Pruned 38 variants from chromosome 20, leaving 364.
-Pruned 30 variants from chromosome 21, leaving 254.
-Pruned 61 variants from chromosome 22, leaving 336.
-Pruning complete.  1031 of 10825 variants removed.
+Pruned 29 variants from chromosome 21, leaving 255.
+Pruned 55 variants from chromosome 22, leaving 342.
+Pruning complete.  1019 of 10825 variants removed.
 Marker lists written to PCA3_prune.prune.in and PCA3_prune.prune.out .
 
-End time: Wed Jan 31 15:38:57 2018
+End time: Thu Feb  1 10:45:16 2018
