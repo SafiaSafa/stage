@@ -36,8 +36,9 @@ def polygen_score_sign(geno, sorted_snps, threshs, test_idces, pheno, betas) :
     n_snps = max(threshs)+1
     sorted_snps = sorted_snps[:n_snps]
     test_cases = [i for i,j in enumerate(test_idces) if pheno['vals'][j]==2]
+    print(len(test_cases))
     test_controls = [i for i,j in enumerate(test_idces) if pheno['vals'][j]==1]
-
+    print(len(test_controls))
     betas = betas.values[sorted_snps]
 
     polygen_score_test = np.multiply(np.nan_to_num(geno[test_idces][:,sorted_snps]),

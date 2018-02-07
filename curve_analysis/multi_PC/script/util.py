@@ -281,10 +281,10 @@ def get_i_score_pairwise_interaction(start, stop):
     for i,j in enumerate(np.random.choice(range(snp_data.col_count), size=stop-start)):
         set_idxg(j)
         pool = multiprocessing.Pool(processes=cpus)
-        print ("\t Iteration {}, SNP {} :".format(idxg, snp_data.col[idxg]))
+        print "\t Iteration {}, SNP {} :".format(idxg, snp_data.col[idxg])
         i_scores_epistasy = pool.map(i_score_snp_pairwise_interaction, range(0, snp_data.col_count))
         epistasy_matrix[:,i-start] = np.reshape(i_scores_epistasy, (len(i_scores_epistasy), 1))
-        print ("Found {} interactions with I score > 1.".format(epistasy_matrix[:,i-start].count_nonzero()))
+        print "Found {} interactions with I score > 1.".format(epistasy_matrix[:,i-start].count_nonzero())
         pool.close()
 
     return epistasy_matrix
@@ -466,21 +466,21 @@ def check_globals(globals_to_check):
     set_globals = True
     if ("snp_data" in globals_to_check):
     	if permute_flag:
-    		print ("Using permuted snp_data!")
+    		print "Using permuted snp_data!"
     	if (not type(snp_data) is pysnptools.snpreader.snpdata.SnpData):
-        	print ("Please set util.snp_data to a SnpData object containing the SNPs informations.")
+        	print "Please set util.snp_data to a SnpData object containing the SNPs informations."
         	set_globals = False
     if ("case_idces" in globals_to_check) and (not type(case_idces) in [slice, list]):
-        print ("Please set util.case_idces to the list of indices that correspond to case samples.")
+        print "Please set util.case_idces to the list of indices that correspond to case samples."
         set_globals = False
     if ("control_idces" in globals_to_check) and (not type(control_idces) in [slice, list]):
-        print ("Please set util.control_idces to the list of indices that correspond to control samples.")
+        print "Please set util.control_idces to the list of indices that correspond to control samples."
         set_globals = False
     if ("pheno_vals" in globals_to_check) and (not type(pheno_vals) is np.ndarray):
-        print ("Please set util.control_idces to the list of indices that correspond to control samples.")
+        print "Please set util.control_idces to the list of indices that correspond to control samples."
         set_globals = False
     if ("cont_idces" in globals_to_check) and (not type(cont_idces) in [slice, list]):
-        print ("Please set util.cont_idces to the list of indices that should be included in the continuous I score computation.")
+        print "Please set util.cont_idces to the list of indices that should be included in the continuous I score computation."
         set_globals = False
     return set_globals
 

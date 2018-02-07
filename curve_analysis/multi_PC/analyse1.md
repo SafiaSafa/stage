@@ -13,14 +13,17 @@ output: pdf_document
 #### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
 
-
-![Resultat courbe PC](script/test.pdf)
+test avec niter=10,nb_pc=3
+![Resultat courbe PC](script/fc_pc.pdf)
 
 * _Calcul pente / plateau_
 
 #### __Prediction VS. #PC__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
 
+
+test avec niter=5,nb_pc=3
+![Resultat courbe SNPs](script/fc_SNP.pdf)
 
 ### Regression (Age at onset)
 
