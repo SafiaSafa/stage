@@ -1,0 +1,30 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /home/vcabeli/Documents/data/BP_final/BP.B37-final
+  --extract 1000_snps.extract
+  --make-bed
+  --out 1000_snps_set
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/curve_analysis/multi_SNP
+Start time: Thu Feb 15 17:18:42 2018
+
+Random number seed: 1518711522
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+250140 variants loaded from .bim file.
+1952 people (827 males, 1125 females) loaded from .fam.
+1952 phenotype values loaded from .fam.
+--extract: 999 variants remaining.
+Warning: At least 1 duplicate ID in --extract file.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1952 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 1 het. haploid genotype present (see 1000_snps_set.hh ); many commands
+treat these as missing.
+Total genotyping rate is 0.998656.
+999 variants and 1952 people pass filters and QC.
+Among remaining phenotypes, 427 are cases and 1525 are controls.
+--make-bed to 1000_snps_set.bed + 1000_snps_set.bim + 1000_snps_set.fam ...
+done.
+
+End time: Thu Feb 15 17:18:42 2018

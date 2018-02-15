@@ -1,0 +1,29 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile training_set
+  --covar low_ld_pruned.cov
+  --covar-name PC1-PC50
+  --logistic sex beta hide-covar
+  --out low_ld
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/curve_analysis/multi_PC/script
+Start time: Wed Feb 14 18:46:48 2018
+
+Random number seed: 1518630408
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+250140 variants loaded from .bim file.
+976 people (431 males, 545 females) loaded from .fam.
+976 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 50 covariates loaded.
+Before main variant filters, 976 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 133 het. haploid genotypes present (see low_ld.hh ); many commands
+treat these as missing.
+Total genotyping rate is 0.998695.
+250140 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 218 are cases and 758 are controls.
+Writing logistic model association results to low_ld.assoc.logistic ... done.
+
+End time: Wed Feb 14 18:52:14 2018
