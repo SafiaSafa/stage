@@ -8,22 +8,22 @@ Options in effect:
 
 Hostname: GBA-vcabeli
 Working directory: /home/vcabeli/stage/curve_analysis/multi_PC/script
-Start time: Wed Feb 14 18:46:48 2018
+Start time: Fri Feb 16 13:24:57 2018
 
-Random number seed: 1518630408
+Random number seed: 1518783897
 15733 MB RAM detected; reserving 7866 MB for main workspace.
 250140 variants loaded from .bim file.
-976 people (431 males, 545 females) loaded from .fam.
+976 people (399 males, 577 females) loaded from .fam.
 976 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked).
 --covar: 50 covariates loaded.
 Before main variant filters, 976 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Warning: 133 het. haploid genotypes present (see low_ld.hh ); many commands
+Warning: 86 het. haploid genotypes present (see low_ld.hh ); many commands
 treat these as missing.
-Total genotyping rate is 0.998695.
+Total genotyping rate is 0.99868.
 250140 variants and 976 people pass filters and QC.
-Among remaining phenotypes, 218 are cases and 758 are controls.
+Among remaining phenotypes, 207 are cases and 769 are controls.
 Writing logistic model association results to low_ld.assoc.logistic ... done.
 
-End time: Wed Feb 14 18:52:14 2018
+End time: Fri Feb 16 13:30:28 2018

@@ -10,22 +10,20 @@ Options in effect:
 
 Hostname: GBA-vcabeli
 Working directory: /home/vcabeli/stage/curve_analysis/multi_SNP
-Start time: Thu Feb 15 18:13:57 2018
+Start time: Fri Feb 16 10:49:41 2018
 
-Random number seed: 1518714837
+Random number seed: 1518774581
 15733 MB RAM detected; reserving 7866 MB for main workspace.
-250140 variants loaded from .bim file.
-976 people (415 males, 561 females) loaded from .fam.
+996 variants loaded from .bim file.
+976 people (390 males, 586 females) loaded from .fam.
 976 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked).
 Before main variant filters, 976 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Warning: 98 het. haploid genotypes present (see low_ld_clump.hh ); many
-commands treat these as missing.
-Total genotyping rate is 0.998713.
-250140 variants and 976 people pass filters and QC.
-Among remaining phenotypes, 218 are cases and 758 are controls.
---clump: 95132 clumps formed from 250140 top variants.
+Total genotyping rate is 0.998695.
+996 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 212 are cases and 764 are controls.
+--clump: 988 clumps formed from 996 top variants.
 Results written to low_ld_clump.clumped .
 
-End time: Thu Feb 15 18:14:02 2018
+End time: Fri Feb 16 10:49:41 2018

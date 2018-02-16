@@ -9,10 +9,10 @@ Options in effect:
 
 Hostname: GBA-vcabeli
 Working directory: /home/vcabeli/stage/curve_analysis/multi_PC/script
-Start time: Wed Feb 14 18:46:11 2018
+Start time: Fri Feb 16 13:24:21 2018
 
 Note: --range flag deprecated.  Use e.g. '--extract range [filename]'.
-Random number seed: 1518630371
+Random number seed: 1518783861
 15733 MB RAM detected; reserving 7866 MB for main workspace.
 10841 variants loaded from .bim file.
 1952 people (827 males, 1125 females) loaded from .fam.
@@ -50,4 +50,4 @@ Pruned 60 variants from chromosome 22, leaving 337.
 Pruning complete.  1021 of 10825 variants removed.
 Marker lists written to low_ld_prune.prune.in and low_ld_prune.prune.out .
 
-End time: Wed Feb 14 18:46:11 2018
+End time: Fri Feb 16 13:24:21 2018

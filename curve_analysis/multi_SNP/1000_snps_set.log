@@ -7,24 +7,22 @@ Options in effect:
 
 Hostname: GBA-vcabeli
 Working directory: /home/vcabeli/stage/curve_analysis/multi_SNP
-Start time: Thu Feb 15 17:18:42 2018
+Start time: Fri Feb 16 10:39:58 2018
 
-Random number seed: 1518711522
+Random number seed: 1518773998
 15733 MB RAM detected; reserving 7866 MB for main workspace.
 250140 variants loaded from .bim file.
 1952 people (827 males, 1125 females) loaded from .fam.
 1952 phenotype values loaded from .fam.
---extract: 999 variants remaining.
-Warning: At least 1 duplicate ID in --extract file.
+--extract: 996 variants remaining.
+Warning: At least 4 duplicate IDs in --extract file.
 Using 1 thread (no multithreaded calculations invoked).
 Before main variant filters, 1952 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Warning: 1 het. haploid genotype present (see 1000_snps_set.hh ); many commands
-treat these as missing.
-Total genotyping rate is 0.998656.
-999 variants and 1952 people pass filters and QC.
+Total genotyping rate is 0.998673.
+996 variants and 1952 people pass filters and QC.
 Among remaining phenotypes, 427 are cases and 1525 are controls.
 --make-bed to 1000_snps_set.bed + 1000_snps_set.bim + 1000_snps_set.fam ...
 done.
 
-End time: Thu Feb 15 17:18:42 2018
+End time: Fri Feb 16 10:39:58 2018

@@ -7,7 +7,7 @@ indivname: low_ld_pruned.fam
 evecoutname: low_ld_pruned.pca.evec
 evaloutname: low_ld_pruned.eval
 altnormstyle: NO
-numoutevec: 10
+numoutevec: 3
 numoutlieriter: 0
 numoutlierevec: 2
 outliersigmathresh: 6
@@ -17,111 +17,55 @@ norm used
 
 genetic distance set from physical distance
 genotype file processed
-number of samples used: 1952 number of snps used: 88
+number of samples used: 1952 number of snps used: 39
 Using 8 threads, and partial sum lookup algorithm.
-total number of snps killed in pass: 0  used: 88
+total number of snps killed in pass: 0  used: 39
 
-## Tracy-Widom statistics: rows: 1952  cols: 88
+## Tracy-Widom statistics: rows: 1952  cols: 39
   #N    eigenvalue  difference    twstat      p-value effect. n
-   1     32.413526          NA    -0.041     0.175627  2002.736
-   2     31.466284   -0.947243    -2.012     0.729137  2049.114
-   3     31.314154   -0.152129    -1.488     0.569949  2084.664
-   4     30.715594   -0.598560    -2.474     0.843282  2124.579
-   5     30.104772   -0.610822    -3.614     0.980011  2159.300
-   6     29.870081   -0.234691    -3.527     0.975636  2187.623
-   7     29.516570   -0.353511    -3.871      0.98934  2217.143
-   8     29.304832   -0.211738    -3.736     0.985042  2245.055
-   9     28.729170   -0.575662    -4.942     0.999652  2274.481
-  10     28.663784   -0.065386    -4.353       0.9973  2296.278
-  11     28.286853   -0.376931    -4.897     0.999586  2322.486
-  12     28.113363   -0.173490    -4.719     0.999203  2345.285
-  13     27.901929   -0.211434    -4.679     0.999082  2369.721
-  14     27.700172   -0.201757    -4.605     0.998816  2394.852
-  15     27.443620   -0.256552    -4.747     0.999281  2420.968
-  16     27.058406   -0.385214    -5.418     0.999952  2446.381
-  17     26.970106   -0.088299    -4.964     0.999681  2466.755
-  18     26.661258   -0.308849    -5.368      0.99994  2491.068
-  19     26.440497   -0.220761    -5.454     0.999959  2512.253
-  20     26.299570   -0.140927    -5.225     0.999889  2532.879
-  21     26.135024   -0.164547    -5.082     0.999799  2555.702
-  22     25.762280   -0.372743    -5.800     0.999992  2580.085
-  23     25.727425   -0.034855    -5.164     0.999857  2597.941
-  24     25.508208   -0.219217    -5.262     0.999905  2621.967
-  25     25.291141   -0.217067    -5.365     0.999939  2645.222
-  26     25.181000   -0.110141    -5.023     0.999746  2667.575
-  27     25.068088   -0.112911    -4.669     0.999051  2693.745
-  28     24.802574   -0.265515    -4.959     0.999674  2724.205
-  29     24.729694   -0.072879    -4.431     0.997887  2751.676
-  30     24.499812   -0.229883    -4.561     0.998624  2785.921
-  31     24.281147   -0.218665    -4.661     0.999024  2819.061
-  32     24.249088   -0.032059    -3.928     0.990824  2851.362
-  33     23.959109   -0.289979    -4.317     0.996983  2894.383
-  34     23.894180   -0.064929    -3.707      0.98396  2932.625
-  35     23.548241   -0.345939    -4.366     0.997406  2980.973
-  36     23.490005   -0.058236    -3.733     0.984916  3019.918
-  37     23.331961   -0.158044    -3.520     0.975247  3070.110
-  38     22.919398   -0.412563    -4.538     0.998516  3125.378
-  39     22.786325   -0.133072    -4.297     0.996787  3163.466
-  40     22.648812   -0.137514    -4.059     0.993572  3206.482
-  41     22.296420   -0.352392    -4.888     0.999572  3254.848
-  42     22.094067   -0.202353    -5.049     0.999771  3287.323
-  43     22.021790   -0.072277    -4.566     0.998647  3316.442
-  44     21.799682   -0.222108    -4.813     0.999434  3355.616
-  45     21.636037   -0.163645    -4.789     0.999381  3389.383
-  46     21.502712   -0.133325    -4.609     0.998831  3423.508
-  47     21.302156   -0.200556    -4.772     0.999343  3461.780
-  48     21.248715   -0.053441    -4.175     0.995375  3495.742
-  49     20.977534   -0.271181    -4.688     0.999111  3545.557
-  50     20.924900   -0.052634    -4.082      0.99396  3581.020
-  51     20.848942   -0.075958    -3.536     0.976107  3634.229
-  52     20.503630   -0.345311    -4.423     0.997835  3706.094
-  53     20.463711   -0.039920    -3.723     0.984571  3748.705
-  54     20.317935   -0.145776    -3.538     0.976189  3816.219
-  55     20.093598   -0.224337    -3.786     0.986791  3892.246
-  56     19.871207   -0.222391    -4.070     0.993766  3959.245
-  57     19.735024   -0.136183    -3.898      0.99006  4014.282
-  58     19.523362   -0.211661    -4.155     0.995104  4076.756
-  59     19.353615   -0.169747    -4.207     0.995794  4126.258
-  60     19.273689   -0.079926    -3.734     0.984974  4171.492
-  61     19.215076   -0.058613    -3.068     0.938367  4240.888
-  62     18.999739   -0.215337    -3.261     0.957293  4351.876
-  63     18.918930   -0.080810    -2.664     0.880071  4452.421
-  64     18.719576   -0.199354    -2.714     0.888864  4601.006
-  65     18.677242   -0.042333    -1.777     0.660346  4751.837
-  66     18.458981   -0.218261    -1.802     0.667741  5004.687
-  67     18.300447   -0.158534    -1.453     0.558869  5276.255
-  68     17.878824   -0.421623    -2.898     0.917111  5620.547
-  69     17.771085   -0.107739    -2.481     0.844734  5784.205
-  70     17.600331   -0.170753    -2.440     0.835906  6014.586
-  71     17.524033   -0.076298    -1.700      0.63675  6263.089
-  72     17.146118   -0.377915    -3.084     0.940076  6683.842
-  73     17.041537   -0.104580    -2.740     0.893233  6816.540
-  74     16.993061   -0.048476    -1.878     0.690416  7019.649
-  75     16.741274   -0.251787    -2.397     0.826532  7484.209
-  76     16.710807   -0.030467    -1.294     0.508216  7794.768
-  77     16.361294   -0.349512    -2.505     0.849746  8633.042
-  78     16.222527   -0.138767    -2.392     0.825339  8900.348
-  79     16.115208   -0.107319    -1.970     0.717101  9200.630
-  80     16.014936   -0.100272        NA           NA        NA
-  81     15.696202   -0.318734        NA           NA        NA
-  82     15.625794   -0.070408        NA           NA        NA
-  83     15.375320   -0.250473        NA           NA        NA
-  84     15.252587   -0.122734        NA           NA        NA
-  85     15.193262   -0.059325        NA           NA        NA
-  86     14.975529   -0.217733        NA           NA        NA
-  87     14.590583   -0.384946        NA           NA        NA
-  88     14.302921   -0.287662        NA           NA        NA
+   1     65.061896          NA     0.037     0.161558  1977.187
+   2     61.398624   -3.663272    -3.557     0.977219  2089.442
+   3     61.218869   -0.179755    -2.797     0.902215  2127.111
+   4     60.677630   -0.541239    -2.461      0.84049  2182.370
+   5     59.849897   -0.827733    -2.517     0.852034  2248.178
+   6     59.469052   -0.380845    -1.915     0.701207  2315.707
+   7     58.360018   -1.109034    -2.365     0.819327  2404.357
+   8     57.706041   -0.653977    -2.195     0.778204  2483.965
+   9     56.979349   -0.726693    -2.134     0.762204  2573.703
+  10     56.063628   -0.915721    -2.403     0.827905  2671.050
+  11     55.267546   -0.796082    -2.545     0.857706  2763.267
+  12     54.769533   -0.498013    -2.209     0.781639  2854.255
+  13     53.898946   -0.870587    -2.497     0.848048  2966.019
+  14     53.353364   -0.545582    -2.269     0.796632  3069.370
+  15     52.490136   -0.863228    -2.614     0.871035  3191.335
+  16     52.042023   -0.448113    -2.255     0.793127  3298.777
+  17     51.361323   -0.680700    -2.293     0.802406  3436.329
+  18     50.777395   -0.583929    -2.168     0.771154  3579.529
+  19     50.220329   -0.557065    -1.979     0.719662  3742.726
+  20     48.968423   -1.251907    -3.253     0.956567  3936.618
+  21     48.893394   -0.075029    -2.305     0.805325  4008.485
+  22     48.283179   -0.610215    -2.317     0.807983  4185.530
+  23     47.822971   -0.460208    -2.014     0.729612  4370.965
+  24     46.740022   -1.082948    -3.093      0.94106  4616.040
+  25     46.269046   -0.470976    -3.051     0.936437  4687.984
+  26     45.702271   -0.566775    -3.232     0.954716  4753.533
+  27     45.216274   -0.485997    -3.270     0.957992  4765.528
+  28     45.130072   -0.086203    -2.383     0.823436  4740.981
+  29     44.958739   -0.171333    -1.430     0.551569  4909.684
+  30     44.285946   -0.672793    -1.294      0.50799  5438.243
+  31     43.172893   -1.113053        NA           NA        NA
+  32     42.951225   -0.221668        NA           NA        NA
+  33     42.375060   -0.576165        NA           NA        NA
+  34     41.611923   -0.763137        NA           NA        NA
+  35     41.006316   -0.605606        NA           NA        NA
+  36     40.204623   -0.801694        NA           NA        NA
+  37     39.716965   -0.487658        NA           NA        NA
+  38     38.588575   -1.128390        NA           NA        NA
+  39     38.136482   -0.452093        NA           NA        NA
     kurtosis           snps    indivs
- eigenvector    1     2.949     3.194
- eigenvector    2     3.181     2.894
- eigenvector    3     3.131     3.142
- eigenvector    4     2.973     3.056
- eigenvector    5     3.307     3.344
- eigenvector    6     3.083     3.169
- eigenvector    7     2.785     3.003
- eigenvector    8     3.018     3.229
- eigenvector    9     3.140     3.242
- eigenvector   10     2.623     3.349
+ eigenvector    1     2.831     3.185
+ eigenvector    2     2.096     2.995
+ eigenvector    3     2.819     3.123
 population:   0              Control 1525
 population:   1                 Case  427
 
@@ -131,7 +75,7 @@ population:   1                 Case  427
       Case      1.000      1.007         427
 
 
-number of blocks for moving block jackknife: 67
+number of blocks for moving block jackknife: 37
 fst *1000:
           C     C 
    C      0     0
@@ -139,165 +83,60 @@ fst *1000:
 
 s.dev * 1000000:
           C     C 
-   C      0   118
-   C    118     0
+   C      0   245
+   C    245     0
 
 eigenvector 1:means
                 Case     -0.000
              Control      0.000
 ## Anova statistics for population differences along each eigenvector:
                                               p-value
-             eigenvector_1_Control_Case_      0.659052 
+             eigenvector_1_Control_Case_      0.966676 
 eigenvector 2:means
-             Control     -0.001
-                Case      0.002
-             eigenvector_2_Control_Case_     0.0480082 
+                Case     -0.002
+             Control      0.001
+             eigenvector_2_Control_Case_     0.0460451 
 eigenvector 3:means
-                Case     -0.000
-             Control      0.000
-             eigenvector_3_Control_Case_      0.974052 
-eigenvector 4:means
                 Case     -0.001
              Control      0.000
-             eigenvector_4_Control_Case_      0.123866 
-eigenvector 5:means
-                Case     -0.001
-             Control      0.000
-             eigenvector_5_Control_Case_      0.273801 
-eigenvector 6:means
-             Control     -0.000
-                Case      0.001
-             eigenvector_6_Control_Case_       0.21598 
-eigenvector 7:means
-             Control     -0.000
-                Case      0.000
-             eigenvector_7_Control_Case_      0.644696 
-eigenvector 8:means
-             Control     -0.000
-                Case      0.001
-             eigenvector_8_Control_Case_      0.294222 
-eigenvector 9:means
-                Case     -0.001
-             Control      0.000
-             eigenvector_9_Control_Case_      0.500614 
-eigenvector 10:means
-                Case     -0.000
-             Control      0.000
-            eigenvector_10_Control_Case_      0.755413 
+             eigenvector_3_Control_Case_      0.284203 
 
 ## Statistical significance of differences beween populations:
                                 pop1                  pop2      chisq          p-value   |pop1|   |pop2|
-popdifference:               Control                  Case        11.079      0.351367    1525     427
+popdifference:               Control                  Case         5.135      0.162164    1525     427
 
-eigbestsnp    1             rs758424 17     11515662     2.622
-eigbestsnp    1            rs2179440 20      8517931     2.315
-eigbestsnp    1           rs10419832 19     54849399     2.294
-eigbestsnp    1            rs8051428 16     84867002     2.002
-eigbestsnp    1            rs3812205  6     16699949     1.896
-eigbestsnp    1            rs3781408 10    126715692     1.869
-eigbestsnp    1           rs12675587  8     93358703     1.796
-eigbestsnp    1            rs3755155  2    216864594     1.773
-eigbestsnp    1            rs1941500 18      6547131     1.721
-eigbestsnp    1            rs6820742  4    113915647     1.711
-eigbestsnp    2            rs8009851 14     97570003     2.655
-eigbestsnp    2            rs7075347 10     76533307     2.253
-eigbestsnp    2            rs1986615  1    232804107     2.208
-eigbestsnp    2             rs872111 20     46389178     2.107
-eigbestsnp    2            rs4868254  5    172732331     2.084
-eigbestsnp    2            rs4622658  2    130527538     1.982
-eigbestsnp    2            rs4276160  3     41027338     1.893
-eigbestsnp    2            rs7337127 13    105275930     1.825
-eigbestsnp    2             rs929525 18     59096765     1.762
-eigbestsnp    2             rs770701  1      5743509     1.722
-eigbestsnp    3             rs362133 22     18608627     3.403
-eigbestsnp    3            rs2490385  1    237282971     2.140
-eigbestsnp    3            rs8051428 16     84867002     1.977
-eigbestsnp    3           rs11919702  3    148555225     1.726
-eigbestsnp    3            rs2362295  2    234906526     1.703
-eigbestsnp    3            rs4868254  5    172732331     1.672
-eigbestsnp    3            rs6744347  2    239920634     1.648
-eigbestsnp    3           rs12032332  1     32672932     1.612
-eigbestsnp    3           rs10508277 10      4259123     1.611
-eigbestsnp    3             rs752227 16     85323490     1.575
-eigbestsnp    4           rs10155709  6    151619282     2.900
-eigbestsnp    4             rs929525 18     59096765     2.368
-eigbestsnp    4           rs12897422 14     24033027     2.329
-eigbestsnp    4           rs10809097  9      1057797     1.955
-eigbestsnp    4            rs4845960  1     10947580     1.901
-eigbestsnp    4           rs10419832 19     54849399     1.728
-eigbestsnp    4            rs8009851 14     97570003     1.701
-eigbestsnp    4            rs1013170 16     54210447     1.650
-eigbestsnp    4             rs758424 17     11515662     1.636
-eigbestsnp    4           rs10847434 12    128160793     1.629
-eigbestsnp    5            rs1941500 18      6547131     2.881
-eigbestsnp    5            rs2179440 20      8517931     2.782
-eigbestsnp    5            rs2070572 21     45757905     2.052
-eigbestsnp    5            rs7337127 13    105275930     2.036
-eigbestsnp    5            rs7075347 10     76533307     2.028
-eigbestsnp    5            rs6503785 17     55112291     1.761
-eigbestsnp    5            rs4695849  4    174471671     1.727
-eigbestsnp    5           rs10809097  9      1057797     1.688
-eigbestsnp    5           rs16882886  6     52565528     1.675
-eigbestsnp    5            rs9312207  4    178296863     1.621
-eigbestsnp    6            rs4868254  5    172732331     2.707
-eigbestsnp    6             rs362133 22     18608627     2.534
-eigbestsnp    6            rs2631886  8     21187297     2.128
-eigbestsnp    6            rs1421296 13    106259210     2.069
-eigbestsnp    6           rs10419832 19     54849399     1.938
-eigbestsnp    6            rs7075347 10     76533307     1.917
-eigbestsnp    6            rs7215786 17      9172095     1.822
-eigbestsnp    6             rs134774 22     51080760     1.794
-eigbestsnp    6           rs10508277 10      4259123     1.749
-eigbestsnp    6           rs11674328  2    197286614     1.669
-eigbestsnp    7            rs9328316  6      5577148     2.786
-eigbestsnp    7            rs9410002  9    137730956     2.750
-eigbestsnp    7           rs12628776 22     48381125     1.991
-eigbestsnp    7           rs12032332  1     32672932     1.795
-eigbestsnp    7            rs2053924 19     52123549     1.729
-eigbestsnp    7            rs1941500 18      6547131     1.645
-eigbestsnp    7            rs7329697 13     22791027     1.641
-eigbestsnp    7            rs3765705  1      3597017     1.552
-eigbestsnp    7            rs2835380 21     37894089     1.533
-eigbestsnp    7            rs4362966  5     97315701     1.532
-eigbestsnp    8            rs9312207  4    178296863     2.582
-eigbestsnp    8            rs2362295  2    234906526     2.508
-eigbestsnp    8           rs10846915 12    126039433     2.259
-eigbestsnp    8             rs319535 13     93816293     2.242
-eigbestsnp    8           rs16882886  6     52565528     2.231
-eigbestsnp    8            rs2078210 17     71350838     2.007
-eigbestsnp    8           rs11674328  2    197286614     1.981
-eigbestsnp    8            rs7337127 13    105275930     1.912
-eigbestsnp    8           rs10419832 19     54849399     1.896
-eigbestsnp    8           rs10155709  6    151619282     1.516
-eigbestsnp    9            rs6823980  4    111393691     3.233
-eigbestsnp    9            rs3781408 10    126715692     2.312
-eigbestsnp    9           rs11674328  2    197286614     2.260
-eigbestsnp    9            rs7329697 13     22791027     2.129
-eigbestsnp    9           rs11919702  3    148555225     1.945
-eigbestsnp    9            rs1013170 16     54210447     1.773
-eigbestsnp    9             rs182146  3    148344572     1.536
-eigbestsnp    9            rs1569419  1      2996602     1.519
-eigbestsnp    9             rs770701  1      5743509     1.450
-eigbestsnp    9            rs9312207  4    178296863     1.417
-eigbestsnp   10            rs1986615  1    232804107     2.560
-eigbestsnp   10            rs7337127 13    105275930     2.189
-eigbestsnp   10           rs12675587  8     93358703     2.130
-eigbestsnp   10           rs13335375 16     16018589     2.012
-eigbestsnp   10            rs9970944  1      3454592     1.906
-eigbestsnp   10             rs752227 16     85323490     1.801
-eigbestsnp   10            rs6504511 17     65466619     1.783
-eigbestsnp   10            rs1229670  7     26447021     1.742
-eigbestsnp   10           rs11674328  2    197286614     1.673
-eigbestsnp   10             rs319535 13     93816293     1.610
+eigbestsnp    1            rs1470943  9      2668085     2.238
+eigbestsnp    1            rs4557199  3     77069266     2.022
+eigbestsnp    1             rs288579 16     62577626     2.017
+eigbestsnp    1            rs9319327 13     27489315     1.987
+eigbestsnp    1            rs2304401  2     11761309     1.645
+eigbestsnp    1             rs135976 22     44828077     1.626
+eigbestsnp    1            rs3765705  1      3597017     1.530
+eigbestsnp    1            rs1357477  8    123651942     1.353
+eigbestsnp    1           rs12484556 22     23962404     1.348
+eigbestsnp    1           rs10988467  9    132428927     1.198
+eigbestsnp    2            rs2323659 17     15296936     2.015
+eigbestsnp    2            rs4767424 12    117056469     1.852
+eigbestsnp    2             rs881940  2    110448910     1.848
+eigbestsnp    2            rs2304401  2     11761309     1.602
+eigbestsnp    2            rs9319327 13     27489315     1.542
+eigbestsnp    2            rs1357477  8    123651942     1.537
+eigbestsnp    2            rs7818800  8     72287617     1.253
+eigbestsnp    2             rs225436 21     43729034     1.239
+eigbestsnp    2            rs1811763  3    172817606     1.209
+eigbestsnp    2            rs9896111 17      4407712     1.203
+eigbestsnp    3            rs2162352 18     61646352     2.682
+eigbestsnp    3            rs7818800  8     72287617     2.093
+eigbestsnp    3            rs4557199  3     77069266     1.698
+eigbestsnp    3             rs225436 21     43729034     1.656
+eigbestsnp    3            rs6540244 16     86028384     1.505
+eigbestsnp    3            rs1470943  9      2668085     1.460
+eigbestsnp    3            rs3765705  1      3597017     1.329
+eigbestsnp    3            rs7421653  2    234003227     1.296
+eigbestsnp    3            rs9654056  4      6546433     1.295
+eigbestsnp    3            rs4767424 12    117056469     1.267
 ##end of smartpca run
 
-Correlation between eigenvector 1 (of 10) and Case/Control status is -0.010
-Correlation between eigenvector 2 (of 10) and Case/Control status is 0.045
-Correlation between eigenvector 3 (of 10) and Case/Control status is -0.001
-Correlation between eigenvector 4 (of 10) and Case/Control status is -0.035
-Correlation between eigenvector 5 (of 10) and Case/Control status is -0.025
-Correlation between eigenvector 6 (of 10) and Case/Control status is 0.028
-Correlation between eigenvector 7 (of 10) and Case/Control status is 0.010
-Correlation between eigenvector 8 (of 10) and Case/Control status is 0.024
-Correlation between eigenvector 9 (of 10) and Case/Control status is -0.015
-Correlation between eigenvector 10 (of 10) and Case/Control status is -0.007
+Correlation between eigenvector 1 (of 3) and Case/Control status is -0.001
+Correlation between eigenvector 2 (of 3) and Case/Control status is -0.045
+Correlation between eigenvector 3 (of 3) and Case/Control status is -0.024

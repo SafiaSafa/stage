@@ -45,7 +45,7 @@ def clump_sorted_snps(bfile, assoc_file, snp_values, sorted_snps):
 def save_strat(strat_file, strat):
     pca_res = pd.read_table(strat_file, delim_whitespace=True, skiprows=1, header=None)
     PCs_out = strat + ".PCs"
-    #with open("res_clumped/"+PCs_out, "a") as f:
+
     with open(PCs_out, "a") as f:
         f.write(', '.join(str(pca_res[0].values)))
         f.write('\n')

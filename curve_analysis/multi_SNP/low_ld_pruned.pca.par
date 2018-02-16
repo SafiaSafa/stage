@@ -4,7 +4,7 @@ indivname: low_ld_pruned.fam
 evecoutname: low_ld_pruned.pca.evec
 evaloutname: low_ld_pruned.eval
 altnormstyle: NO
-numoutevec: 10
+numoutevec: 3
 numoutlieriter: 0
 numoutlierevec: 2
 outliersigmathresh: 6
