@@ -1,0 +1,28 @@
+Gene Group 1	Enrichment Score: 2.2660355190877097
+ENSEMBL_GENE_ID	Gene Name
+ENSG00000186452	transmembrane protease, serine 12(TMPRSS12)
+ENSG00000254834	olfactory receptor family 5 subfamily M member 10(OR5M10)
+ENSG00000116329	opioid receptor delta 1(OPRD1)
+ENSG00000170605	olfactory receptor family 9 subfamily K member 2(OR9K2)
+ENSG00000179055	olfactory receptor family 13 subfamily D member 1(OR13D1)
+ENSG00000170929	olfactory receptor family 1 subfamily M member 1(OR1M1)
+ENSG00000119714	G protein-coupled receptor 68(GPR68)
+ENSG00000171517	lysophosphatidic acid receptor 3(LPAR3)
+ENSG00000152034	melanin concentrating hormone receptor 2(MCHR2)
+ENSG00000165202	olfactory receptor family 1 subfamily Q member 1(OR1Q1)
+ENSG00000169488	olfactory receptor family 4 subfamily K member 15(OR4K15)
+ENSG00000172289	olfactory receptor family 10 subfamily V member 1(OR10V1)
+ENSG00000127364	taste 2 receptor member 4(TAS2R4)
+ENSG00000121764	hypocretin receptor 1(HCRTR1)
+ENSG00000181072	cholinergic receptor muscarinic 2(CHRM2)
+ENSG00000186881	olfactory receptor family 13 subfamily F member 1(OR13F1)
+
+Gene Group 2	Enrichment Score: 2.0456063577340067
+ENSEMBL_GENE_ID	Gene Name
+ENSG00000103769	RAB11A, member RAS oncogene family(RAB11A)
+ENSG00000167964	RAB26, member RAS oncogene family(RAB26)
+ENSG00000099246	RAB18, member RAS oncogene family(RAB18)
+ENSG00000168118	RAB4A, member RAS oncogene family(RAB4A)
+ENSG00000119729	ras homolog family member Q(RHOQ)
+ENSG00000117280	RAB29, member RAS oncogene family(RAB29)
+

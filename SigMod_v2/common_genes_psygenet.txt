@@ -1,0 +1,4 @@
+Gene Symbol	Gene Description
+MCHR2	melanin-concentrating hormone receptor 2
+CHRM2	cholinergic receptor, muscarinic 2
+ADCY2	adenylate cyclase 2 (brain)
