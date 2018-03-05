@@ -9,6 +9,7 @@ output: pdf_document
 
 
 ### Classification (Cas vs. Controle)
+--------------------------------------------
 #### __Ranking: Pvalue__
 ##### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
@@ -61,20 +62,27 @@ Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombr
 ##### __Prediction VS. #PC__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
 
-
-
 ![Resultat courbe SNPs](combined/fct_pc.png)
-#### __Ranking: Beta__
+
+#### __Ranking: ldscore__
 ##### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
 
 
 
 
-![Resultat courbe PC](beta/index.png)
+![Resultat courbe PC](ldscore/index.png)
+
+* _Calcul pente / plateau_
+
+![Resultat courbe PC](ldscore/zoomRplot.png)
+
+##### __Prediction VS. #PC__
+Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
+![Resultat courbe PC](ldscore/fct_pc.png)
 
 ### Regression (Age at onset)
-
+--------------------------------------------
 #### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
 * _Calcul pente / plateau_
