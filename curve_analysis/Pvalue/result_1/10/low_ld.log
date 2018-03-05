@@ -1,0 +1,31 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /media/vcabeliNFS2/safia/10/training_set
+  --covar /media/vcabeliNFS2/safia/10/low_ld_pruned.cov
+  --covar-name PC1-PC10
+  --logistic sex beta hide-covar
+  --out /media/vcabeliNFS2/safia/10/low_ld
+  --threads 8
+
+Hostname: bioinfoclust08.cnam.fr
+Working directory: /home/vcabeli
+Start time: Fri Feb 23 14:49:04 2018
+
+Random number seed: 1519393744
+24099 MB RAM detected; reserving 12049 MB for main workspace.
+250140 variants loaded from .bim file.
+976 people (427 males, 549 females) loaded from .fam.
+976 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 10 covariates loaded.
+Before main variant filters, 976 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 124 het. haploid genotypes present (see
+/media/vcabeliNFS2/safia/10/low_ld.hh ); many commands treat these as missing.
+Total genotyping rate is 0.998649.
+250140 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 213 are cases and 763 are controls.
+Writing logistic model association results to
+/media/vcabeliNFS2/safia/10/low_ld.assoc.logistic ... done.
+
+End time: Fri Feb 23 14:49:50 2018

@@ -1,0 +1,11 @@
+genotypename: /media/vcabeliNFS2/safia/50/low_ld_pruned.bed
+snpname: /media/vcabeliNFS2/safia/50/low_ld_pruned.bim
+indivname: /media/vcabeliNFS2/safia/50/low_ld_pruned.fam
+evecoutname: /media/vcabeliNFS2/safia/50/low_ld_pruned.pca.evec
+evaloutname: /media/vcabeliNFS2/safia/50/low_ld_pruned.eval
+altnormstyle: NO
+numoutevec: 50
+numoutlieriter: 0
+numoutlierevec: 2
+outliersigmathresh: 6
+qtmode: 0
