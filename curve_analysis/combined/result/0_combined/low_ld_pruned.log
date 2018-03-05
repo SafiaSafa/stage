@@ -1,0 +1,31 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --allow-extra-chr
+  --bfile /media/vcabeliNFS2/safia/0_combined/low_ld
+  --chr 1-23
+  --extract /media/vcabeliNFS2/safia/0_combined/low_ld_prune.prune.in
+  --make-bed
+  --out /media/vcabeliNFS2/safia/0_combined/low_ld_pruned
+  --threads 8
+
+Hostname: bioinfoclust06.cnam.fr
+Working directory: /home/vcabeli
+Start time: Thu Mar  1 12:59:16 2018
+
+Random number seed: 1519905556
+24099 MB RAM detected; reserving 12049 MB for main workspace.
+10841 variants loaded from .bim file.
+1952 people (827 males, 1125 females) loaded from .fam.
+1952 phenotype values loaded from .fam.
+--extract: 9804 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1952 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998705.
+9804 variants and 1952 people pass filters and QC.
+Among remaining phenotypes, 427 are cases and 1525 are controls.
+--make-bed to /media/vcabeliNFS2/safia/0_combined/low_ld_pruned.bed +
+/media/vcabeliNFS2/safia/0_combined/low_ld_pruned.bim +
+/media/vcabeliNFS2/safia/0_combined/low_ld_pruned.fam ... done.
+
+End time: Thu Mar  1 12:59:16 2018

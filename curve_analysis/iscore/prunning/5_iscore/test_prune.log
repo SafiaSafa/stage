@@ -1,0 +1,52 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /media/vcabeliNFS2/safia/5_iscore/training_set
+  --indep-pairwise 50 5 0.2
+  --out /media/vcabeliNFS2/safia/5_iscore/test_prune
+
+Hostname: bioinfoclust07.cnam.fr
+Working directory: /home/vcabeli
+Start time: Fri Mar  2 16:12:12 2018
+
+Random number seed: 1520003532
+24099 MB RAM detected; reserving 12049 MB for main workspace.
+250140 variants loaded from .bim file.
+976 people (413 males, 563 females) loaded from .fam.
+976 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 976 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 81 het. haploid genotypes present (see
+/media/vcabeliNFS2/safia/5_iscore/test_prune.hh ); many commands treat these as
+missing.
+Total genotyping rate is 0.998717.
+250140 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 200 are cases and 776 are controls.
+Pruned 12570 variants from chromosome 1, leaving 6122.
+Pruned 14319 variants from chromosome 2, leaving 6013.
+Pruned 12195 variants from chromosome 3, leaving 5069.
+Pruned 10171 variants from chromosome 4, leaving 4714.
+Pruned 10444 variants from chromosome 5, leaving 4689.
+Pruned 11800 variants from chromosome 6, leaving 4717.
+Pruned 9073 variants from chromosome 7, leaving 4105.
+Pruned 10454 variants from chromosome 8, leaving 4007.
+Pruned 8740 variants from chromosome 9, leaving 3785.
+Pruned 8431 variants from chromosome 10, leaving 3953.
+Pruned 8015 variants from chromosome 11, leaving 3602.
+Pruned 8274 variants from chromosome 12, leaving 3854.
+Pruned 6178 variants from chromosome 13, leaving 2898.
+Pruned 5199 variants from chromosome 14, leaving 2668.
+Pruned 4757 variants from chromosome 15, leaving 2424.
+Pruned 4573 variants from chromosome 16, leaving 2553.
+Pruned 4039 variants from chromosome 17, leaving 2491.
+Pruned 5708 variants from chromosome 18, leaving 2602.
+Pruned 2460 variants from chromosome 19, leaving 1907.
+Pruned 3988 variants from chromosome 20, leaving 2231.
+Pruned 3044 variants from chromosome 21, leaving 1360.
+Pruned 2770 variants from chromosome 22, leaving 1417.
+Pruned 3752 variants from chromosome 23, leaving 2005.
+Pruning complete.  170954 of 250140 variants removed.
+Marker lists written to /media/vcabeliNFS2/safia/5_iscore/test_prune.prune.in
+and /media/vcabeliNFS2/safia/5_iscore/test_prune.prune.out .
+
+End time: Fri Mar  2 16:12:13 2018

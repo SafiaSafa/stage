@@ -1,0 +1,32 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /media/vcabeliNFS2/data/BP/BP.B37-final
+  --keep /media/vcabeliNFS2/safia/2/training_samples.keep
+  --make-bed
+  --out /media/vcabeliNFS2/safia/2/training_set
+  --threads 8
+
+Hostname: bioinfoclust08.cnam.fr
+Working directory: /home/vcabeli
+Start time: Wed Feb 28 16:00:22 2018
+
+Random number seed: 1519830022
+24099 MB RAM detected; reserving 12049 MB for main workspace.
+250140 variants loaded from .bim file.
+1952 people (827 males, 1125 females) loaded from .fam.
+1952 phenotype values loaded from .fam.
+--keep: 976 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 976 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 100 het. haploid genotypes present (see
+/media/vcabeliNFS2/safia/2/training_set.hh ); many commands treat these as
+missing.
+Total genotyping rate in remaining samples is 0.998699.
+250140 variants and 976 people pass filters and QC.
+Among remaining phenotypes, 209 are cases and 767 are controls.
+--make-bed to /media/vcabeliNFS2/safia/2/training_set.bed +
+/media/vcabeliNFS2/safia/2/training_set.bim +
+/media/vcabeliNFS2/safia/2/training_set.fam ... done.
+
+End time: Wed Feb 28 16:00:24 2018
