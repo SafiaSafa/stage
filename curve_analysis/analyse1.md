@@ -16,7 +16,7 @@ Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombr
 test avec niter=10,nb_pc=3
 
 
-![Resultat courbe PC](script/fct_pc.pdf)
+![Resultat courbe PC](curve_analysis/Pvalue/result_rank_pvalue.png)
 
 * _Calcul pente / plateau_
 
