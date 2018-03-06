@@ -168,9 +168,19 @@ def iterate(snp_data, pheno,n_iter,threshs,thresh_LD,nb_pc,repertoire):
         p = subprocess.Popen(cmd_keep_plink, shell=True)
         p.wait()
 
+        ##################I-score
+        snp_data_iscore, pheno_iscore = util.load_data(repertoire+"/training_set")
+        i_scores_classification = util.get_i_scores_binary()
+        sorted_snps_iscore=np.argsort(-i_scores_classification)
 
 
-
+        # prinnig: SNPs indépendantes
+        cmd_prune = """/media/vcabeliNFS2/safia/bin/plink --bfile {}  --indep-pairwise 50 5 0.2 --out {}""".format(repertoire+"/training_set", repertoire+"/test_prune")
+        p = subprocess.Popen(cmd_prune, shell=True)
+        assert(p.wait() == 0)
+        pruned_res = pd.read_table(repertoire+"/test_prune.prune.in", delim_whitespace=True,header=None)
+        pruned_snps =set(pruned_res[0])
+        sorted_snps_iscore = np.array([i for i in sorted_snps_iscore if snp_data.col[i] in pruned_snps])
 
         #test d'association: classification (Rlog)
         if (nb_pc==0):
@@ -189,18 +199,7 @@ def iterate(snp_data, pheno,n_iter,threshs,thresh_LD,nb_pc,repertoire):
         p.wait()
         low_ld_res = pd.read_table(repertoire+"/low_ld.assoc.logistic", delim_whitespace=True)
         
-        # Compute I score on the training set 
-        snp_data_iscore, pheno_iscore = util.load_data("training_set")
-        i_scores_classification = util.get_i_scores_binary()
-        low_ld_res['I_score']=i_scores_classification
-
-        # Classe les SNPs par I scores 
-        sorted_snps_low_ld = np.argsort(abs(low_ld_res.I_score))
-        # clump les SNPs pour garder les SNPs indépendantes 
-        sorted_snps_low_ld = clump_sorted_snps(repertoire+"/training_set", repertoire+"/low_ld.assoc.logistic",
-                                               snp_data.col, sorted_snps_low_ld)
-
-        
+          
         # #### Coded genotype (hardy-weinberg)
         # 
         # With sufficiently large cohorts, traning and test sets should have the same MAFs. 
@@ -216,20 +215,12 @@ def iterate(snp_data, pheno,n_iter,threshs,thresh_LD,nb_pc,repertoire):
 
         # ### Compute PRS
         
-        prs_low_ld = polygen_score_sign(G_hw, sorted_snps_low_ld,
+        prs_low_ld = polygen_score_sign(G_hw, sorted_snps_iscore,
                                         threshs,
                                         test_idces, pheno,
                                         low_ld_res.BETA)
         res_hw_pval_sign[iteration] = prs_low_ld
         
-        ###### Compute I-score
-        #i_scores_classification = util.get_i_scores_binary()
-
-        #df_iscore = pd.DataFrame({'SNP':snp_data.col, 'i_score':i_scores_classification})
-        #data frame a 2 colone (pê recupe que la deuxieme)
-        #res_hw_iscore[iteration] = df_iscore
-        
-        ####### Compute LD-score 
         
     return(res_hw_pval_sign)
 
@@ -240,14 +231,14 @@ if __name__ == '__main__':
 
     snp_data, pheno = util.load_data("/media/vcabeliNFS2/data/BP/BP.B37-final")
     n_iter = 100
-    threshs = range(10, 95000, 500)
+    threshs = range(10, 79308, 835)
     thresh_LD = 5
     nb_pc_tot=51
-    time = range(10,95000,500)
+    time = range(10,79308,835)
     get_color = lambda : "#" + "".join(np.random.choice(list("02468acef"), size=6))
     step = 10
     ############
-    repertoire="/media/vcabeliNFS2/safia/"+str(sys.argv[1])
+    repertoire="/media/vcabeliNFS2/safia/"+str(sys.argv[1])+"_iscore"
     os.system("mkdir "+repertoire)
     res_pval=iterate(snp_data, pheno,n_iter,threshs,thresh_LD,int(sys.argv[1]),repertoire)
     os.system("mkdir "+repertoire+"/resultat")

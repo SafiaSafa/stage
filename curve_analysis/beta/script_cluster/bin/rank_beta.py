@@ -191,7 +191,7 @@ def iterate(snp_data, pheno,n_iter,threshs,thresh_LD,nb_pc,repertoire):
 
 
         # clump les SNPs pour garder les SNPs indépendantes 
-        sorted_snps_low_ld = np.argsort(abs(low_ld_res.BETA))
+        sorted_snps_low_ld = np.argsort(-abs(low_ld_res.BETA))
         sorted_snps_low_ld = clump_sorted_snps(repertoire+"/training_set", repertoire+"/low_ld.assoc.logistic",
                                                snp_data.col, sorted_snps_low_ld)
 
