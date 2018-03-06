@@ -27,24 +27,41 @@ Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombr
 
 
 ![Resultat courbe SNPs](Pvalue/result/curve_pcRplot.png)
-
-#### __Ranking: I-score__
+#### __Ranking: Beta__
 ##### __Prediction VS. #SNPs__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
 
 
-![Resultat courbe PC](iscore/prunning/index.png)
+![Resultat courbe PC](beta/index.png)
 
 * _Calcul pente / plateau_
 
-![Resultat courbe PC](iscore/prunning/zoomRplot.png)
+![Resultat courbe PC](beta/zoomRplot.png)
 
 ##### __Prediction VS. #PC__
 Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
 
 
 
-![Resultat courbe SNPs](iscore/prunning/fct_pc.png)
+![Resultat courbe SNPs](beta/fct_pc.png)
+
+#### __Ranking: I-score__
+##### __Prediction VS. #SNPs__
+Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de SNPs selon le nombre de Composantes Principale (PC) ajouté en covariables.
+
+
+![Resultat courbe PC](iscore/index.png)
+
+* _Calcul pente / plateau_
+
+![Resultat courbe PC](iscore/zoomRplot.png)
+
+##### __Prediction VS. #PC__
+Mesure de la prédiction (ou coefficents de prédictivité) en fonction du nombre de PCs selon le nombre de SNPs étudié (500/100/200/500/100/200).
+
+
+
+![Resultat courbe SNPs](iscore/fct_pc.png)
 
 #### __Ranking: Pvalue + Iscore__
 ##### __Prediction VS. #SNPs__
