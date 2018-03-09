@@ -1,0 +1,57 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/vcabeli/Documents/data/BP_final/BP.B37-final
+  --exclude /home/vcabeli/Documents/data/high-LD-regions_37.txt
+  --indep-pairwise 50 5 0.2
+  --out BP.B37-final_low_ld_prune
+  --range
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/SigMod_v2/full
+Start time: Thu Mar  8 16:48:13 2018
+
+Note: --range flag deprecated.  Use e.g. '--extract range [filename]'.
+Random number seed: 1520524093
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+250140 variants loaded from .bim file.
+1952 people (827 males, 1125 females) loaded from .fam.
+1952 phenotype values loaded from .fam.
+--exclude range: 4831 variants excluded.
+--exclude range: 245309 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1952 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 203 het. haploid genotypes present (see BP.B37-final_low_ld_prune.hh
+); many commands treat these as missing.
+Total genotyping rate is 0.998719.
+245309 variants and 1952 people pass filters and QC.
+Among remaining phenotypes, 427 are cases and 1525 are controls.
+Pruned 12351 variants from chromosome 1, leaving 6121.
+Pruned 13649 variants from chromosome 2, leaving 5894.
+Pruned 11898 variants from chromosome 3, leaving 5078.
+Pruned 10189 variants from chromosome 4, leaving 4696.
+Pruned 10120 variants from chromosome 5, leaving 4720.
+Pruned 10556 variants from chromosome 6, leaving 4554.
+Pruned 8898 variants from chromosome 7, leaving 4079.
+Pruned 9742 variants from chromosome 8, leaving 3866.
+Pruned 8760 variants from chromosome 9, leaving 3765.
+Pruned 8340 variants from chromosome 10, leaving 3947.
+Pruned 7726 variants from chromosome 11, leaving 3493.
+Pruned 8104 variants from chromosome 12, leaving 3854.
+Pruned 6147 variants from chromosome 13, leaving 2929.
+Pruned 5204 variants from chromosome 14, leaving 2663.
+Pruned 4760 variants from chromosome 15, leaving 2421.
+Pruned 4556 variants from chromosome 16, leaving 2570.
+Pruned 4045 variants from chromosome 17, leaving 2485.
+Pruned 5707 variants from chromosome 18, leaving 2603.
+Pruned 2453 variants from chromosome 19, leaving 1914.
+Pruned 3865 variants from chromosome 20, leaving 2239.
+Pruned 3049 variants from chromosome 21, leaving 1355.
+Pruned 2769 variants from chromosome 22, leaving 1418.
+Pruned 3731 variants from chromosome 23, leaving 2026.
+Pruning complete.  166619 of 245309 variants removed.
+Marker lists written to BP.B37-final_low_ld_prune.prune.in and
+BP.B37-final_low_ld_prune.prune.out .
+
+End time: Thu Mar  8 16:48:18 2018

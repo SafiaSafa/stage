@@ -1,0 +1,24 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /home/vcabeli/Documents/analyses_current/GRIV_DESIR/GRIV_DESIR_NP
+  --out GRIV_DESIR_NP
+  --recode
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/GRIV/np
+Start time: Thu Mar  8 14:39:45 2018
+
+Random number seed: 1520516385
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+272115 variants loaded from .bim file.
+959 people (478 males, 481 females) loaded from .fam.
+959 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 959 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998856.
+272115 variants and 959 people pass filters and QC.
+Among remaining phenotypes, 266 are cases and 693 are controls.
+--recode ped to GRIV_DESIR_NP.ped + GRIV_DESIR_NP.map ... done.
+
+End time: Thu Mar  8 14:39:57 2018

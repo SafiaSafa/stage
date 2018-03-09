@@ -1,0 +1,7 @@
+####################################################################################################
+
+A scored-network has been successfully constructed
+This scored-network consists 12219 nodes and  220306 interactions
+This scored-network is saved as an igraph object named "string_net" in 'constructed_scored_string_net.Rdata'
+
+####################################################################################################

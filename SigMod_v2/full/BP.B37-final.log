@@ -1,0 +1,26 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /home/vcabeli/Documents/data/BP_final/BP.B37-final
+  --out BP.B37-final
+  --recode
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/SigMod_v2/full
+Start time: Thu Mar  8 16:18:15 2018
+
+Random number seed: 1520522295
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+250140 variants loaded from .bim file.
+1952 people (827 males, 1125 females) loaded from .fam.
+1952 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1952 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 203 het. haploid genotypes present (see BP.B37-final.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.998716.
+250140 variants and 1952 people pass filters and QC.
+Among remaining phenotypes, 427 are cases and 1525 are controls.
+--recode ped to BP.B37-final.ped + BP.B37-final.map ... done.
+
+End time: Thu Mar  8 16:18:59 2018

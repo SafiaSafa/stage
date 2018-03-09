@@ -1,0 +1,25 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile /home/vcabeli/Documents/analyses_current/GRIV_DESIR/GRIV_DESIR_PR
+  --logistic
+  --out GRIV_DESIR_PR_nocovar
+
+Hostname: GBA-vcabeli
+Working directory: /home/vcabeli/stage/GRIV/np
+Start time: Thu Mar  8 14:24:30 2018
+
+Random number seed: 1520515470
+15733 MB RAM detected; reserving 7866 MB for main workspace.
+272115 variants loaded from .bim file.
+777 people (353 males, 424 females) loaded from .fam.
+777 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 777 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998858.
+272115 variants and 777 people pass filters and QC.
+Among remaining phenotypes, 84 are cases and 693 are controls.
+Writing logistic model association results to
+GRIV_DESIR_PR_nocovar.assoc.logistic ... done.
+
+End time: Thu Mar  8 14:24:35 2018
