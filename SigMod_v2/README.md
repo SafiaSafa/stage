@@ -8,7 +8,9 @@ Cette analyse repose sur le principe de *"culpabilité par association"*, qui st
 Ces méthodes sont limité par le fait que la plupart  recherchent souvent des modules en utilisant des algorithmes heuristiques ou “greedy”, qui ne peuvent donc pas garantir l'identification du module enrichi en signaux les plus élevés, et sont susceptibles d'inclure par hasard des gènes biologiquement non pertinents. De plus, beaucoup d'entre eux ne prennent pas en compte les poids des arêtes  pendant le processus de recherche de module, alors que celle-ci représentent la confiance ou la force des connexions entre les gènes et peuvent contenir des informations utiles.
 ### Méthodologie
 <img src="../journal_club/journal3/workflow.png" alt="Drawing" width="250" height="250"/>  
- Documentation disponible sur [link to SigMod](https://github.com/YuanlongLiu/SigMod)
+
+ Documentation disponible sur [link to SigMod](https://github.com/YuanlongLiu/SigMod) 
+ 
 #### Mapping SNPs-Genes
 Implémenter dans le script `ensemble.R`.
 ```
@@ -67,7 +69,8 @@ qq(pvector = t_3$P)
 
 dev.off()
 ```
-<img src="assoc_wcovar_qq.png" alt="Drawing"  width="250" height="250"/>
+<img src="assoc_wcovar_qq.png" alt="Drawing"  width="250" height="250"/> 
+
 ```sh
 # Pour avoir un fichier dont l'en-tête respect snp_chr_pos_p_file
 awk '{print$2" "$1" "$3" "$9}' low_ld.assoc.logistic > ~/stage/SigMod_v2/snp_pval.txt
