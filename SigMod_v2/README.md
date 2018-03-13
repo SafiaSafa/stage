@@ -259,7 +259,7 @@ Co-Mentioned in PubMed Abstracts |	none, but putative homologs are mentioned tog
 
 > This two proteins may have some sequence similarity (53.5 bits over 238 amino acids.)
 
-Predictions for specific actions:|
+Predictions for specific actions:|yes/no
 ----|----
 Catalysis |	yes (score: 0.904)
 Reaction|	yes (score: 0.904)
@@ -269,7 +269,7 @@ __PPI enrichment p-value__: 0.00224
 __KEGG Pathways__:
 
 pathway ID|pathway description|count in gene set|false discovery rate
-----|----
+----|----|----|----
 04725|Cholinergic synapse|2|0.0233
 04020|Calcium signaling pathway|2|0.0308
 04080|Neuroactive ligand-receptor interaction|2|0.049
@@ -298,9 +298,10 @@ Type of Evidence| Description
 ----|----
 Association in Curated Databases |	yes (score 0.900).
 
-> This two proteins have some sequence similarity (61.6 bits over 266 amino acids.)
+> This two proteins have some sequence similarity (61.6 bits over 266 amino acids.) 
 
-Predictions for specific actions:|
+
+Predictions for specific actions:|yes/no
 ----|----
 Catalysis |	yes (score: 0.900)
 Reaction|	yes (score: 0.900)
@@ -311,7 +312,7 @@ Type of Evidence| Description
 ----|----
 Association in Curated Databases |	yes (score 0.900).
 
-Predictions for specific actions:|
+Predictions for specific actions:|yes/no
 ----|----
 Catalysis |	yes (score: 0.900)
 Reaction|	yes (score: 0.900)
@@ -324,7 +325,7 @@ Co-Expression |	none, but putative homologs are coexpressed in other species (sc
 Association in Curated Databases |	yes (score 0.900).
 Co-Mentioned in PubMed Abstracts |	yes (score 0.305).
 
-Predictions for specific actions:|
+Predictions for specific actions:|yes/no
 ----|----
 Catalysis |	yes (score: 0.900)
 Reaction|	yes (score: 0.900)
@@ -334,12 +335,12 @@ __PPI enrichment p-value__: 3.69e-05
 __KEGG Pathways__:
 
 pathway ID|pathway description|count in gene set|false discovery rate
-----|----
+----|----|----|----
 04725|Cholinergic synapse|2(ADCY2/CHRM2)|0.0385
 04080|Neuroactive ligand-receptor interaction|3(CHRM2/MCHR2/HCRTR1)|0.00633
 
 __Biological Process (GO)__:
 
 pathway ID|pathway description|count in gene set|false discovery rate
-----|----
+----|----|----|----
 GO:0007186|G-protein coupled receptor signaling pathway|5|0.00419
